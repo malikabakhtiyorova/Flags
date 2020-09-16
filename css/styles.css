@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+}
+
+.italian-flag {
+  min-height: 100vh;
+  background-image:
+  linear-gradient(to right,
+  #008000 0, #008000 33%,
+  transparent 33%, transparent 67%,
+  #ff0000 67%, #ff0000 100%);
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.france-flag {
+  min-height: 100vh;
+  background-image: 
+  linear-gradient(to right,
+  #0c1db6 0, #0c1db6 33%,
+  transparent 33%,
+  transparent 67%,
+  #ff0000 67%, #ff0000 100%);
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.russia-flag {
+  min-height: 100vh;
+  background-image: 
+  linear-gradient(to bottom,
+  transparent 0, transparent 33%,
+  #0c1996 33%, #0c1996 67%,
+  #ff0000 67%, #ff0000 100%);
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.spain-flag {
+  min-height: 100vh;
+  background-image: url("../img/spainsymbol.png"), 
+  linear-gradient(to bottom, #ad0707 0, #ad0707 25%,
+  #e9ad2a 25%, #e9ad2a 75%,
+  #ad0707 75%, #ad0707 100%);
+  background-repeat: no-repeat;
+  background-size: 260px, 100%;
+  background-position: 15% 47% , center;
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.mexico-flag {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #055225 0, #055225 33%,
+  transparent 33%, transparent 67%,
+  #d30909 67%, #d30909 100%),  url("../img/mexico-icon.png") ;
+  background-repeat: no-repeat;
+  background-size: auto, 400px;
+  background-position: center, center;
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.canada-flag {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #f01515 0, #f01515 25%,
+  transparent 25%, transparent 75%,
+  #f01515 75%, #f01515 100%),  url("../img/canadasymbol.png") ;
+  background-repeat: no-repeat;
+  background-size: auto, 400px;
+  background-position: center, center;
+  border: 7px solid rgb(126, 80, 168);
+}
+
+.trinidadtobago-flag {
+  min-height: 100vh;
+  background-image:
+  linear-gradient(35.5deg,
+  #b12816 0, #b12816 40%,
+  transparent 40%, transparent 45%, #000 45%, #000 55%, transparent 55%, transparent 60%,
+  #b12816 60%, #b12816 100%);
+  border: 7px solid rgb(126, 80, 168);
+}
+
+
+
+
